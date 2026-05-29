@@ -1,6 +1,6 @@
 {
   "name": "graphify-openspec-bridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bridge between OpenSpec and Graphify - codebase-aware OpenSpec workflow with knowledge graph integration",
   "keywords": [
     "openspec",
