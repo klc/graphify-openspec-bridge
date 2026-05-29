@@ -14,8 +14,8 @@
   "license": "MIT",
   "author": "klc",
   "bin": {
-    "graphify-openspec-bridge": "./bin/graphify-openspec-bridge.js",
-    "gob": "./bin/graphify-openspec-bridge.js"
+    "graphify-openspec-bridge": "bin/graphify-openspec-bridge.js",
+    "gob": "bin/graphify-openspec-bridge.js"
   },
   "files": [
     "bin/",
