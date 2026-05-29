@@ -11,8 +11,17 @@
     "ai-coding"
   ],
   "homepage": "https://github.com/klc/graphify-openspec-bridge",
+  "bugs": {
+    "url": "https://github.com/klc/graphify-openspec-bridge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klc/graphify-openspec-bridge.git"
+  },
   "license": "MIT",
   "author": "klc",
+  "type": "commonjs",
+  "main": "index.js",
   "bin": {
     "graphify-openspec-bridge": "bin/graphify-openspec-bridge.js",
     "gob": "bin/graphify-openspec-bridge.js"
@@ -21,14 +30,10 @@
     "bin/",
     "openspec/"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "engines": {
     "node": ">=16"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/klc/graphify-openspec-bridge.git"
-  },
-  "bugs": {
-    "url": "https://github.com/klc/graphify-openspec-bridge/issues"
   }
 }
