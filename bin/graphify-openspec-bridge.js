@@ -167,8 +167,9 @@ function cmdCheck(argv) {
 }
 
 function cmdInstall(argv) {
-  const target = resolveTarget(argv[0]);
   const withConfig = argv.includes('--with-config');
+  const pathArg = argv.filter(a => a !== '--with-config')[0] || '';
+  const target = resolveTarget(pathArg);
 
   console.log('');
   console.log(bold(`${NAME} v${VERSION} — install`));
